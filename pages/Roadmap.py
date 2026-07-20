@@ -25,6 +25,3 @@ def app():
     progress_percent = 0.25 # Exemplo: 25% para o final da Semana 1
     st.progress(progress_percent)
     st.write(t("progress_text", progress_percent=progress_percent))
-
-if __name__ == "__main__":
-    app()
