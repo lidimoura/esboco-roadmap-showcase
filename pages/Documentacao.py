@@ -30,15 +30,15 @@ def app():
 
 Para garantir a transparência técnica e a facilidade na tomada de decisão, este projeto foi estruturado em três frentes de entrega:
 
-- 📊 [**Dashboard Interativo (Streamlit)**](https://github.com/No-Country-simulation/G9-BR-TEAM-12/tree/main/frontend/streamlit_app): Desenvolvido para stakeholders, diretores e usuários finais.
-- 🛠️ [**Documentação Técnica e Notebooks (GitHub)**](https://github.com/No-Country-simulation/G9-BR-TEAM-12): Recomendado para Tech Leads, recrutadores e a própria equipe de desenvolvimento.
-- 🌐 [**Site de Apresentação (EnergiAI Showcase)**](https://manus-webdev-energiai-showcase.manus.computer/): Uma landing page trilíngue que conta a história do projeto, apresenta a equipe e recursos.
+- 📊 [**Dashboard Interativo (Streamlit)**](https://github.com/No-Country-simulation/G9-BR-TEAM-12/tree/main/frontend/streamlit_app): Desenvolvido para stakeholders, diretores e usuários finais[...]
+- 🛠️ [**Documentação Técnica e Notebooks (GitHub)**](https://github.com/No-Country-simulation/G9-BR-TEAM-12): Recomendado para Tech Leads, recrutadores e a própria equipe de desenvolvimen[...]
+- 🌐 [**Site de Apresentação (EnergiAI Showcase)**](https://manus-webdev-energiai-showcase.manus.computer/): Uma landing page trilíngue que conta a história do projeto, apresenta a equipe e [...]
 
 ---
 
 ## [PT-BR] Visão geral do projeto
 
-O **PowerPolis** é uma solução inovadora desenvolvida no Hackathon EnergiAI da No-Country, com o objetivo de transformar dados de consumo energético em inteligência acionável. Nossa plataforma...
+O **PowerPolis** é uma solução inovadora desenvolvida no Hackathon EnergiAI da No-Country, com o objetivo de transformar dados de consumo energético em inteligência acionável. Nossa platafor[...]
 
 ## [EN] Project Overview
 
@@ -72,7 +72,7 @@ Os critérios exatos e a metodologia de rotulagem estão detalhados em `docs/cri
 
 ## Contrato entre Dados e API
 
-O modelo preditivo será serializado (e.g., `.pkl` ou `.joblib`) e carregado pelo Backend em Java/Spring Boot. A integração se dará através de um endpoint `POST /analise-energetica` que recebe um payload JSON.
+O modelo preditivo será serializado (e.g., `.pkl` ou `.joblib`) e carregado pelo Backend em Java/Spring Boot. A integração se dará através de um endpoint `POST /analise-energetica` que recebe[...]
 
 **Exemplo de JSON de Entrada:**
 ```json
