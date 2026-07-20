@@ -68,7 +68,7 @@ def app():
             "specialty": t("specialty_antonio"),
             "linkedin": "www.linkedin.com/in/antonio-carlos-martins-teixeira",
             "github": "https://github.com/digichargeac",
-            "avatar": "https://avatars.githubusercontent.com/u/100000004?v=4"
+            "avatar": "https://avatars.githubusercontent.com/u/217652752?v=4"
         },
         {
             "name": "Dryelli Vitoria Martins de Freitas",
