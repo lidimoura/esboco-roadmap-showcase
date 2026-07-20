@@ -52,7 +52,7 @@ def app():
             "specialty": t("specialty_mayara"),
             "linkedin": None,
             "github": None,
-            "avatar": None
+            "avatar": 
         },
         {
             "name": "Alex Furukawa",
@@ -76,7 +76,7 @@ def app():
             "specialty": t("specialty_dryelli"),
             "linkedin": None,
             "github": None,
-            "avatar": None
+            "avatar": 
         },
     ]
 
