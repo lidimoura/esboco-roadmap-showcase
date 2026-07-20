@@ -1,8 +1,8 @@
-# PowerPolis - Análise e Otimização de Consumo Energético
+# PowerPolis - Projeto participante de Análise e Otimização de Consumo Energético (EnergiAI)
 
-## 👩‍💻 Sobre a Equipe / About the Team
+## Sobre a Equipe / About the Team
 
-**G9-BR-TEAM-12** | Hackathon No-Country - EnergiAI
+[**G9-BR-TEAM-12**](https://github.com/No-Country-simulation/G9-BR-TEAM-12) | Hackathon G9 / No-Country - EnergiAI
 
 | Membro | Papel | LinkedIn | GitHub |
 | --- | --- | --- | --- |
@@ -18,13 +18,13 @@
 
 ---
 
-## 📂 Entregas do Projeto / Project Deliverables
+## Entregas do Projeto / Project Deliverables
 
 Para garantir a transparência técnica e a facilidade na tomada de decisão, este projeto foi estruturado em três frentes de entrega:
 
-- 📊 [**Dashboard Interativo (Streamlit)**](https://github.com/No-Country-simulation/G9-BR-TEAM-12/tree/main/frontend/streamlit_app): Desenvolvido para stakeholders, diretores e usuários finais
-- 🛠️ [**Documentação Técnica e Notebooks (GitHub)**](https://github.com/No-Country-simulation/G9-BR-TEAM-12): Recomendado para Tech Leads, recrutadores e a própria equipe de desenvolvimento
-- 🌐 [**Site de Apresentação (EnergiAI Showcase)**](https://esboco-roadmap-showcase.streamlit.app/): Uma landing page trilíngue que conta a história do projeto
+- [**Dashboard Interativo (Streamlit)** | ***em desenvolvimento*** ](https://github.com/No-Country-simulation/G9-BR-TEAM-12): Desenvolvido para stakeholders, diretores e usuários finais
+- [**Documentação Técnica e Notebooks (GitHub)** | ***em desenvolvimento***](https://lidimoura.github.io/esboco-roadmap-showcase/): Recomendado para Tech Leads, recrutadores e a própria equipe de desenvolvimento
+- [**Site de Apresentação (EnergiAI Showcase)** | ***em desenvolvimento***](https://esboco-roadmap-showcase.streamlit.app/): Uma landing page trilíngue que conta a história do projeto
 
 ---
 
