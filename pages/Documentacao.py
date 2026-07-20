@@ -4,6 +4,8 @@ from utils.i18n import t
 def app():
     st.title(t("docs_menu"))
     st.write("Página de Documentação / Documentation Page")
+
+    md = """
 # PowerPolis - Análise e Otimização de Consumo Energético
 
 ## 👩‍💻 Sobre a Equipe / About the Team
@@ -28,40 +30,31 @@ def app():
 
 Para garantir a transparência técnica e a facilidade na tomada de decisão, este projeto foi estruturado em três frentes de entrega:
 
-- 📊 [**Dashboard Interativo (Streamlit)**](https://github.com/No-Country-simulation/G9-BR-TEAM-12/tree/main/frontend/streamlit_app): Desenvolvido para stakeholders, diretores e usuários finais. Foca na classificação de eficiência energética, recomendações, roadmap do projeto e apresentação da equipe. Abstrai a complexidade do código, focando na experiência do usuário.
-
-- 🛠️ [**Documentação Técnica e Notebooks (GitHub)**](https://github.com/No-Country-simulation/G9-BR-TEAM-12): Recomendado para Tech Leads, recrutadores e a própria equipe de desenvolvimento. Apresenta os bastidores da análise, detalhando todo o processo de EDA, Feature Engineering, modelagem e a lógica estatística construída em notebooks Python.
-
-- 🌐 [**Site de Apresentação (EnergiAI Showcase)**](https://manus-webdev-energiai-showcase.manus.computer/): Uma landing page trilíngue que conta a história do projeto, apresenta a equipe e comunica a visão de futuro do PowerPolis, incluindo a integração com IA e IoT.
+- 📊 [**Dashboard Interativo (Streamlit)**](https://github.com/No-Country-simulation/G9-BR-TEAM-12/tree/main/frontend/streamlit_app): Desenvolvido para stakeholders, diretores e usuários finais.
+- 🛠️ [**Documentação Técnica e Notebooks (GitHub)**](https://github.com/No-Country-simulation/G9-BR-TEAM-12): Recomendado para Tech Leads, recrutadores e a própria equipe de desenvolvimento.
+- 🌐 [**Site de Apresentação (EnergiAI Showcase)**](https://manus-webdev-energiai-showcase.manus.computer/): Uma landing page trilíngue que conta a história do projeto, apresenta a equipe e recursos.
 
 ---
 
 ## [PT-BR] Visão geral do projeto
 
-O **PowerPolis** é uma solução inovadora desenvolvida no Hackathon EnergiAI da No-Country, com o objetivo de transformar dados de consumo energético em inteligência acionável. Nossa plataforma classifica o perfil de consumo de imóveis (residencial, comercial, industrial) em categorias de eficiência (Eficiente, Moderado, Ineficiente) e oferece recomendações personalizadas para otimização, economia e promoção de hábitos mais sustentáveis. O projeto integra técnicas avançadas de Data Science, Machine Learning e uma arquitetura robusta para garantir escalabilidade e usabilidade.
+O **PowerPolis** é uma solução inovadora desenvolvida no Hackathon EnergiAI da No-Country, com o objetivo de transformar dados de consumo energético em inteligência acionável. Nossa plataforma...
 
 ## [EN] Project Overview
 
-**PowerPolis** is an innovative solution developed during the No-Country EnergiAI Hackathon, aiming to transform energy consumption data into actionable intelligence. Our platform classifies property consumption profiles (residential, commercial, industrial) into efficiency categories (Efficient, Moderate, Inefficient) and offers personalized recommendations for optimization, savings, and promoting more sustainable habits. The project integrates advanced Data Science techniques, Machine Learning, and a robust architecture to ensure scalability and usability.
+**PowerPolis** is an innovative solution developed during the No-Country EnergiAI Hackathon, aiming to transform energy consumption data into actionable intelligence. Our platform...
 
 ---
 
 ## Stack Tecnológica
 
 - **Python & Pandas**: Limpeza de dados, manipulação de DataFrames e cálculo de KPIs.
-
 - **Scikit-Learn**: Implementação e comparação de modelos preditivos (Regressão Linear, Árvore de Decisão, Random Forest).
-
 - **Streamlit**: Desenvolvimento de dashboards interativos e visualização dinâmica.
-
 - **Google Colab / Kaggle Notebooks**: Ambiente de prototipagem, EDA e documentação técnica.
-
 - **Java/Spring Boot**: Backend para a API de análise energética.
-
 - **OCI Object Storage**: Armazenamento de modelos e dados.
-
 - **Git & GitHub**: Controle de versão e colaboração da equipe.
-
 - **Discord**: Comunicação e alinhamento da equipe.
 
 ## Critérios de Negócio e Classificação
@@ -69,25 +62,19 @@ O **PowerPolis** é uma solução inovadora desenvolvida no Hackathon EnergiAI d
 Para a classificação de eficiência (Eficiente, Moderado, Ineficiente), utilizamos uma lógica baseada em quantis e regras de negócio que consideram as seguintes variáveis:
 
 - `consumo_kwh`: Consumo total de energia elétrica em kWh por mês.
-
 - `quantidade_equipamentos`: Número total de equipamentos elétricos no imóvel.
-
 - `horas_alto_consumo`: Média de horas diárias com equipamentos de alto consumo ligados.
-
 - `tipo_imovel`: Categoria do imóvel (Casa, Apartamento, Comercial, Indústria).
-
 - `uso_horario_pico`: Indicação de consumo significativo durante o horário de pico (18h-21h).
-
 - `possui_energia_solar`: (A ser integrada) Indica se o imóvel possui sistema de energia solar.
 
 Os critérios exatos e a metodologia de rotulagem estão detalhados em `docs/criterios-classificacao.md` e `docs/METODOLOGIA.md` (a ser criado).
 
 ## Contrato entre Dados e API
 
-O modelo preditivo será serializado (e.g., `.pkl` ou `.joblib`) e carregado pelo Backend em Java/Spring Boot. A integração se dará através de um endpoint `POST /analise-energetica` que receberá um JSON com as features de entrada e retornará a classificação de eficiência, probabilidade e recomendações. O contrato da API está detalhado em `docs/contrato-api.md`.
+O modelo preditivo será serializado (e.g., `.pkl` ou `.joblib`) e carregado pelo Backend em Java/Spring Boot. A integração se dará através de um endpoint `POST /analise-energetica` que recebe um payload JSON.
 
 **Exemplo de JSON de Entrada:**
-
 ```json
 {
   "consumo_kwh": 450.5,
@@ -99,7 +86,6 @@ O modelo preditivo será serializado (e.g., `.pkl` ou `.joblib`) e carregado pel
 ```
 
 **Exemplo de JSON de Saída:**
-
 ```json
 {
   "categoria": "Moderado",
@@ -114,18 +100,13 @@ O modelo preditivo será serializado (e.g., `.pkl` ou `.joblib`) e carregado pel
 
 ## Integração OCI
 
-Para o armazenamento e carregamento do modelo em tempo de execução, utilizaremos o **OCI Object Storage**. O fluxo recomendado é:
-
 1. **Treinamento do Modelo**: O notebook de Data Science treina o modelo e o serializa para um arquivo (e.g., `modelo_powerpolis.pkl`).
-
-1. **Upload para OCI**: O arquivo do modelo é enviado para um bucket no OCI Object Storage.
-
-1. **Download pelo Backend**: O serviço Spring Boot, ao iniciar, baixa o modelo do OCI Object Storage para carregá-lo em memória e realizar as predições.
-
-## Roadmap do Projeto (4 Semanas)
-
-Para o roadmap detalhado, incluindo tarefas diárias, responsáveis e entregáveis, consulte a página "Roadmap do Projeto" no [Dashboard Streamlit](https://github.com/No-Country-simulation/G9-BR-TEAM-12/tree/main/frontend/streamlit_app) e o documento `docs/ROADMAP.md` (a ser criado).
+2. **Upload para OCI**: O arquivo do modelo é enviado para um bucket no OCI Object Storage.
+3. **Download pelo Backend**: O serviço Spring Boot, ao iniciar, baixa o modelo do OCI Object Storage para carregá-lo em memória e realizar as predições.
 
 ---
 
-**Transparência e Vibe Coding:** A análise de dados, lógica de programação e tomada de decisão estratégica apresentadas neste repositório são de autoria da equipe G9-BR-TEAM-12. A redação e formatação estrutural desta documentação foram otimizadas com auxílio de IA (Gemini), focando em agilidade e entrega profissional. 🌱 *Reflorestando o Digital.*
+**Transparência e Vibe Coding:** A análise de dados, lógica de programação e tomada de decisão estratégica apresentadas neste repositório são de autoria da equipe G9-BR-TEAM-12.
+"""
+
+    st.markdown(md, unsafe_allow_html=True)
