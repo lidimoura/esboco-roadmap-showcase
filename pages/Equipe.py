@@ -12,7 +12,7 @@ def app():
             "specialty": t("specialty_lidi"),
             "linkedin": "https://www.linkedin.com/in/lidimoura/",
             "github": "https://github.com/lidimoura",
-            "avatar": "https://avatars.githubusercontent.com/u/55047806?v=4"
+            "avatar": "https://avatars.githubusercontent.com/u/195331493?v=4"
         },
         {
             "name": "Pedro Henrique Rodrigues da Costa Tireli",
@@ -20,7 +20,7 @@ def app():
             "specialty": t("specialty_pedro"),
             "linkedin": "https://www.linkedin.com/in/phtirelli/",
             "github": "https://github.com/phtirelli",
-            "avatar": "https://avatars.githubusercontent.com/u/79184768?v=4"
+            "avatar": "https://avatars.githubusercontent.com/u/100102157?v=4"
         },
         {
             "name": "Samanta Sá",
@@ -28,7 +28,7 @@ def app():
             "specialty": t("specialty_samanta"),
             "linkedin": "https://www.linkedin.com/in/engsamantasa/",
             "github": "https://github.com/engsamantasa",
-            "avatar": "https://avatars.githubusercontent.com/u/60960000?v=4"
+            "avatar": "https://avatars.githubusercontent.com/u/227623247?v=4"
         },
         {
             "name": "Kauã da Silva Barros",
@@ -44,7 +44,7 @@ def app():
             "specialty": t("specialty_alan"),
             "linkedin": "https://www.linkedin.com/in/alan-anderson-dev/",
             "github": "https://github.com/alanandersondev",
-            "avatar": "https://avatars.githubusercontent.com/u/100000001?v=4"
+            "avatar": "https://avatars.githubusercontent.com/u/298712983?v=4"
         },
         {
             "name": "Mayara Medeiros Giangiacomo",
@@ -60,7 +60,7 @@ def app():
             "specialty": t("specialty_alex"),
             "linkedin": "https://www.linkedin.com/in/lexkawa/",
             "github": "https://github.com/dev-corvus/",
-            "avatar": "https://avatars.githubusercontent.com/u/100000003?v=4"
+            "avatar": "https://avatars.githubusercontent.com/u/98266359?v=4"
         },
         {
             "name": "Antônio Carlos Martins Teixeira",
