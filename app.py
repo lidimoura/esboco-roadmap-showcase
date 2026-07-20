@@ -25,7 +25,7 @@ st.markdown("""
 
 # --- Sidebar --- #
 with st.sidebar:
-    st.image("https://raw.githubusercontent.com/No-Country-simulation/G9-BR-TEAM-12/main/frontend/streamlit_app/assets/logo.png", width=150) # Placeholder para o logo
+    st.image("https://github.com/lidimoura/esboco-roadmap-showcase/blob/main/assets/logo.png?raw=true", width=150) # Placeholder para o logo
 
     # `set_language()` was already called above to initialize session state and render the language selector.
     current_lang = get_lang()
