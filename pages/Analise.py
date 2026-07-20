@@ -74,7 +74,3 @@ def app():
             st.error(t("error_api_connection"))
         except Exception as e:
             st.error(t("error_analysis", e=e))
-
-# Para rodar esta página diretamente (apenas para teste)
-if __name__ == "__main__":
-    app()
