@@ -20,11 +20,11 @@
 
 ## Entregas do Projeto / Project Deliverables
 
-Para garantir a transparência técnica e a facilidade na tomada de decisão, este projeto foi estruturado em três frentes de entrega:
+Para garantir maior transparência técnica e a acessibilidade para cada etapa de desenvolvimento, este projeto tem os seguintes formatos de entrega:
 
-- 📊 [EM BREVE -> **Dashboard Interativo (Streamlit)**](https://github.com/No-Country-simulation/G9-BR-TEAM-12/tree/main/frontend/streamlit_app): Desenvolvido para stakeholders, diretores e usuários finais[...]
+- 📊 [EM BREVE -> **Dashboard Interativo (Streamlit)**](https://esboco-roadmap-showcase.streamlit.app/): Desenvolvido para stakeholders, diretores e usuários finais[...]
 - 🛠️ [**Documentação Técnica e Notebooks (GitHub)**](https://github.com/No-Country-simulation/G9-BR-TEAM-12): Recomendado para Tech Leads, recrutadores e a própria equipe de desenvolvimen[...]
-- 🌐 [**Site de Apresentação (EnergiAI Showcase)**](https://esboco-roadmap-showcase.streamlit.app/): Uma landing page trilíngue que conta a história do projeto, apresenta a equipe e [...]
+- 🌐 [**Site de Apresentação (EnergiAI Showcase - em desenvolvimento)**](https://esboco-roadmap-showcase.streamlit.app/): Uma landing page trilíngue que conta a história do projeto, apresenta a equipe e [...]
 
 ---
 
