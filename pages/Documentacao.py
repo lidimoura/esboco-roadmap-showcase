@@ -126,18 +126,6 @@ Para o armazenamento e carregamento do modelo em tempo de execução, utilizarem
 
 Para o roadmap detalhado, incluindo tarefas diárias, responsáveis e entregáveis, consulte a página "Roadmap do Projeto" no [Dashboard Streamlit](https://github.com/No-Country-simulation/G9-BR-TEAM-12/tree/main/frontend/streamlit_app) e o documento `docs/ROADMAP.md` (a ser criado).
 
-## Como explorar a análise
-
-- Clone este repositório: `git clone https://github.com/No-Country-simulation/G9-BR-TEAM-12.git`
-
-- Navegue até o diretório `data-science/notebooks/` para acessar os notebooks de EDA e Modelagem.
-
-- Abra os arquivos `.ipynb` no Google Colab ou Kaggle Notebooks.
-
-- Certifique-se de ter o dataset `consumo_energetico_50k_enriquecido.csv` (a ser gerado ) no ambiente.
-
-- Execute as células para acompanhar a linha de raciocínio lógico e a geração dos gráficos.
-
 ---
 
 **Transparência e Vibe Coding:** A análise de dados, lógica de programação e tomada de decisão estratégica apresentadas neste repositório são de autoria da equipe G9-BR-TEAM-12. A redação e formatação estrutural desta documentação foram otimizadas com auxílio de IA (Gemini), focando em agilidade e entrega profissional. 🌱 *Reflorestando o Digital.*
