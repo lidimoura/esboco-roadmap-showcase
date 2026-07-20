@@ -128,7 +128,7 @@ def app():
     cols = st.columns(len(arch_members))
     for i, member in enumerate(arch_members):
         with cols[i]:
-            st.image(member["avatar"], width=100)
+            st.image(member["avatar"], width=80)
             st.subheader(member["name"].split("|")[0].strip())
             st.write(f"**{member["role"]}**")
             st.caption(member["specialty"])
