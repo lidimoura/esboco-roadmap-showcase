@@ -76,7 +76,7 @@ def app():
             "specialty": t("specialty_dryelli"),
             "linkedin": None,
             "github": None,
-            "avatar": "https://avatars.githubusercontent.com/u/298712900?v=4"
+            "avatar": "https://avatars.githubusercontent.com/u/000000000?v=4"
         },
     ]
 
