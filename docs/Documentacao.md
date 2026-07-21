@@ -22,9 +22,9 @@
 
 Para garantir maior transparência técnica e a acessibilidade para cada etapa de desenvolvimento, este projeto tem os seguintes formatos de entrega:
 
-- 📊 [EM BREVE -> **Dashboard Interativo (Streamlit)**](https://esboco-roadmap-showcase.streamlit.app/): Desenvolvido para stakeholders, diretores e usuários finais[...]
-- 🛠️ [**Documentação Técnica e Notebooks (GitHub)** | ***em desenvolvimento***](https://lidimoura.github.io/esboco-roadmap-showcase/): Recomendado para Tech Leads, recrutadores e a própria equipe de desenvolvimen[...]
-- 🌐 [**Site de Apresentação (EnergiAI Showcase - ***em desenvolvimento***)**](https://esboco-roadmap-showcase.streamlit.app/): Uma landing page trilíngue que conta a história do projeto, apresenta a equipe e [...]
+- [**Relatório Técnico do modelo preditivo [Notebook colab](https://colab.research.google.com/drive/18AtuVOSAeubBE29WpctxfsByy7qpd-qz#scrollTo=1dadede0): Relatório técnico do modelo preditivo [...]
+- [**Documentação Técnica e Notebooks (GitHub)**](https://github.com/No-Country-simulation/G9-BR-TEAM-12): Recomendado para Tech Leads, recrutadores e a própria equipe de desenvolvimen[...]
+- [**Site de Apresentaçãoe dashboard interativo |**EM BREVE**| (EnergiAI Showcase)**](https://esboco-roadmap-showcase.streamlit.app/): Uma landing page trilíngue que conta a história do projeto, apresenta a equipe e [...]
 
 ---
 
